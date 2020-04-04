@@ -9,12 +9,12 @@ import { MatSliderModule } from '@angular/material/slider';
 import { MatIconModule } from '@angular/material/icon';
 import { MatInputModule } from '@angular/material/input';
 import { MatButtonModule } from '@angular/material/button';
- 
+  
 
 
 import { HelloComponent } from './hello.component';
  @NgModule({
-  imports:      [ BrowserModule, FormsModule ,MatSliderModule,MatIconModule ,BrowserAnimationsModule, MatButtonModule ],
+  imports:      [ BrowserModule, FormsModule ,MatSliderModule,MatIconModule ,BrowserAnimationsModule, MatButtonModule,MatAutocompleteModule ],
   declarations: [ AppComponent, HelloComponent ],
   bootstrap:    [ AppComponent ]
 })
